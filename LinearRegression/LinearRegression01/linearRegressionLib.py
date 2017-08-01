@@ -2,7 +2,6 @@ def mean(x):
 	"""
 	This function calculates the mean value of a list of numbers.
 	It is equivalent to writing x.mean()
-
 	Args:
 		x (np array): array
 	Returns:
@@ -15,7 +14,6 @@ def variance(x, mean):
 	"""
 	This function calculates the variance of the values in x
 	It is equivalent to writing x.var()
-
 	Args:
 		x (np array): array
 		mean (float): mean of x array
@@ -30,7 +28,6 @@ def variance(x, mean):
 def covariance(x, mean_x, y, mean_y):
 	"""
 	This function calculates the co-variance of x and y
-
 	Args:
 		x (np array): array
 		mean_x (float): mean of x array

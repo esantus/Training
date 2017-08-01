@@ -63,5 +63,3 @@ for i, record in enumerate(house_size_new):
 # Let's plot our results
 plt.plot(house_size_new, fit_fn(house_size_new, found_m, found_q), 'yo')
 plt.show()
-
-
