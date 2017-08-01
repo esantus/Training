@@ -60,6 +60,7 @@ def get_binary_data():
 
 	X, Y = get_data()
 
+	# Save all the items where Y is equal to 0 or 1
 	X2 = X[Y <= 1]
 	Y2 = Y[Y <= 1]
 
