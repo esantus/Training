@@ -1,6 +1,6 @@
 # What is this?
 
-This directory contains my solution of assignment in [2011 Stanford Machine Learning Class](http://www.ml-class.org).
+This directory contains my solutions of assignment in [2011 Stanford Machine Learning Class](http://www.ml-class.org).
 
 
 ## License
