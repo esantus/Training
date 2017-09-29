@@ -31,13 +31,12 @@ X = [ones(m, 1) X];
 %       
 
 % For every input, multiply by the best parameters of OneVsAll
-predictions = sigmoid(X*all_theta')
+predictions = sigmoid(X*all_theta');
 
 % Save the index of the max prediction
-[value, index] = max(predictions, [], 2)
+[value, index] = max(predictions, [], 2);
 
-p = index
-
+p = index;
 
 % =========================================================================
 

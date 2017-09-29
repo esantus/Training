@@ -50,8 +50,8 @@ cost_regularizer = (lambda / (2 * m)) * sqr;
 grad_regularizer = (lambda / m) * theta1;
 
 % Cost function and gradient
-J = (sum(-y .* log(h0) - (1-y) .* log(1-h0)) / m) + cost_regularizer
-grad = (1/m) * transpose(X) * (h0 - y) + grad_regularizer
+J = (sum(-y .* log(h0) - (1-y) .* log(1-h0)) / m) + cost_regularizer;
+grad = (1/m) * transpose(X) * (h0 - y) + grad_regularizer;
 
 % =============================================================
 

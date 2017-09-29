@@ -21,8 +21,38 @@ p = zeros(size(X, 1), 1);
 %       can use max(A, [], 2) to obtain the max for each row.
 %
 
+%X: 16,2
+size(X)
+
+%Theta1 4,3
+size(Theta1)
+
+%Theta2 4,5
+size(Theta2)
+
+% Adding bias
+a1 = [ones(m, 1) X];
+size(a1)
+
+% Multiplying dimensions m,n * n,o = m,o
+z2 = a1 * Theta1';
+size(z2)
+
+% Calculating activation and adding bias
+a2 = [ones(size(z2), 1) sigmoid(z2)];
+size(a2)
+
+z3 = a2 * Theta2';
+size(z3)
+
+a3 = sigmoid(z3);
+size(a3)
 
 
+% Save the index of the max prediction
+[value, index] = max(a3, [], 2)
+
+p = index
 
 
 
